@@ -1,0 +1,11 @@
+.footerContainer{
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 1px solid var(--cor-borda);
+  margin-top: 4rem; /* Um espaço para separar do conteúdo futuro do site */
+}
+
+.copyrightText{
+    font-size: 0.9rem;
+    color: var(--cor-secundaria);
+}
