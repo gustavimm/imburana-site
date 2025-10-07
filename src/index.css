@@ -10,5 +10,12 @@
 body {
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
+  font-family: 'Montserrat', sans-serif; /* Fonte para o corpo do texto */
   /* Outros estilos globais que podemos adicionar depois */
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Playfair', serif; /* Fonte para títulos */
+  color: var(--cor-primaria);
+  margin: 0; 
 }

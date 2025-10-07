@@ -1,0 +1,49 @@
+.heroContainer {
+  /* Define a altura e a imagem de fundo */
+  min-height: 85vh; /* Ocupa no mínimo 85% da altura da tela */
+  background-image: url('../assets/hero-background.png'); /* Caminho para a imagem */
+  background-size: cover; /* Faz a imagem cobrir toda a área */
+  background-position: center; /* Centraliza a imagem */
+
+  /* Centraliza o conteúdo (o texto) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white; /* Cor do texto principal sobre a imagem */
+}
+
+.heroContent {
+  background-color: rgba(0, 0, 0, 0.4); /* Fundo preto semi-transparente para legibilidade */
+  padding: 2rem 3rem;
+  border-radius: 5px;
+  max-width: 80%;
+}
+
+.heroContent h2 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  
+  color: #FFFFFF; /* Garante um branco puro e brilhante */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Adiciona uma leve sombra para destacar */
+}
+
+.heroContent p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.heroButton {
+  display: inline-block;
+  padding: 0.8rem 2.5rem;
+  background-color: var(--cor-destaque);
+  color: var(--cor-texto);
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: transform 0.3s ease; /* Efeito suave ao passar o mouse */
+}
+
+.heroButton:hover {
+  transform: scale(1.05); /* Aumenta um pouco o botão */
+}
